@@ -15,7 +15,7 @@
       <guid>fcfda551-44e2-4422-b571-9dfdc0699d9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Manager Module/TC01_Login_Success</testCaseId>
+      <testCaseId>Test Cases/Common/TC01_Login_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
