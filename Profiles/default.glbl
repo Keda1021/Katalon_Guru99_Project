@@ -6,21 +6,21 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://demo.guru99.com/V4/\r\n'</initValue>
+      <initValue>'https://demo.guru99.com/V4/'</initValue>
       <name>G_Url</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'mngr655115'</initValue>
       <name>G_AdminUser</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'UzEpUza'</initValue>
       <name>G_AdminPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
