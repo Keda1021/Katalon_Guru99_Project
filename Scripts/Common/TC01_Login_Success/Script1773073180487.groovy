@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.G_Url)
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Page_Login/Page_Guru99 Bank Home Page/txt_username'), GlobalVariable.G_AdminUser)
+
+WebUI.setText(findTestObject('Page_Login/Page_Guru99 Bank Home Page/txt_password'), GlobalVariable.G_AdminPassword)
+
+WebUI.click(findTestObject('Page_Login/Page_Guru99 Bank Home Page/btn_login'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.verifyTextPresent('Manger Id', false)
+
