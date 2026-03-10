@@ -14,6 +14,7 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 // --- BƯỚC 1: GỌI LOGIN (Đã khớp tên TC01_Login_Success) ---
 WebUI.callTestCase(findTestCase('Test Cases/Common/TC01_Login_Success'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -49,12 +50,30 @@ WebUI.setText(findTestObject('Object Repository/Page_AddCustomer/Password'), '12
 // --- BƯỚC 4: SUBMIT VÀ LẤY ID ---
 WebUI.click(findTestObject('Object Repository/Page_AddCustomer/Submit Button'))
 
-// Đợi ID xuất hiện và lưu vào biến toàn cục
+// 1. Đợi ID xuất hiện và lấy giá trị
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_AddCustomer/lbl_CustomerID'), 15)
 
-GlobalVariable.G_CustomerID = WebUI.getText(findTestObject('Object Repository/Page_AddCustomer/lbl_CustomerID'))
+String customerID = WebUI.getText(findTestObject('Object Repository/Page_AddCustomer/lbl_CustomerID'))
 
-println('>>> DA LUU ID THANH CONG: ' + GlobalVariable.G_CustomerID)
+// 2. Lưu vào GlobalVariable để chạy Suite liên tục
+GlobalVariable.G_CustomerID = customerID
+
+println('>>> DA LUU ID VAO GLOBAL: ' + GlobalVariable.G_CustomerID)
+
+// 3. LƯU RA FILE CSV ĐỂ CHIA SẺ CHO NHÓM
+// Đường dẫn sẽ nằm ngay trong folder dự án của bạn cho dễ tìm
+String filePath = RunConfiguration.getProjectDir() + '/Data Files/CustomerID_List.csv'
+
+// Nội dung ghi vào file (CustomerID)
+File file = new File(filePath)
+
+// Kiểm tra nếu folder Data Files chưa có thì tạo mới
+file.getParentFile().mkdirs()
+
+// Ghi đè (hoặc dùng .append nếu muốn lưu dồn nhiều ID qua các lần chạy)
+file.write('CustomerID\n' + customerID)
+
+println('>>> DA LUU ID VAO FILE: ' + filePath)
 
 WebUI.callTestCase(findTestCase('Common/TC02_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
