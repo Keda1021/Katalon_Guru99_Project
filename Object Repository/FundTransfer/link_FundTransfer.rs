@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>State</name>
+   <name>link_FundTransfer</name>
    <tag></tag>
-   <elementGuidId>74255453-6854-4f2a-8796-68bd2498866b</elementGuidId>
+   <elementGuidId>4802fb96-4c7b-4426-a324-fcd17907342e</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value> //a[contains(text(),'Fund Transfer')]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@name='state']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_username</name>
+   <name>txt_PayersAccountNo</name>
    <tag></tag>
-   <elementGuidId>e60778aa-c42c-4476-8109-fb4e4315a03a</elementGuidId>
+   <elementGuidId>6514fc6e-6871-4b7b-89cb-b9b45cf6c64b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>XPath:&#xd;
+//input[@name='padd']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>//input[@name='padd']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'uid']</value>
+         <value>//*[@name = 'toadd']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>uid</value>
-      <webElementGuid>d773dbfb-7a5a-44c5-bdbb-6b3f8e9ed7d4</webElementGuid>
+      <value>payersaccount</value>
+      <webElementGuid>ab9efe18-260d-444f-854b-85df268130c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

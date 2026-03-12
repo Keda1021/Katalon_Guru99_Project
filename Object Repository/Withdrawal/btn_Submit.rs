@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_username</name>
+   <name>btn_Submit</name>
    <tag></tag>
-   <elementGuidId>e60778aa-c42c-4476-8109-fb4e4315a03a</elementGuidId>
+   <elementGuidId>92b0a87d-2847-4789-a539-871ad92fd4e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'uid']</value>
+         <value>//*[@name = 'AccSubmit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>uid</value>
-      <webElementGuid>d773dbfb-7a5a-44c5-bdbb-6b3f8e9ed7d4</webElementGuid>
+      <value>AccSubmit</value>
+      <webElementGuid>c19917de-7c73-4330-b89e-35e47d7f3fb6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
