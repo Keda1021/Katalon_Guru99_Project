@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EC01_EditCustomer_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>677d4e75-9ae2-4696-a7fa-0e46179c2f98</testCaseGuid>
+</TestCaseEntity>

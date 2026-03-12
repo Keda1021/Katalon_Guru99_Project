@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NC01-Create customer with valid data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce6dae0c-e552-4404-9c7a-a2f0766e4002</testCaseGuid>
+</TestCaseEntity>

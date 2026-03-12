@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NC03-Invalid email format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f3f7026-61ca-4985-a72d-fd4b69d55749</testCaseGuid>
+</TestCaseEntity>

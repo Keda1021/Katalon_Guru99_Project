@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DC04_CancelDelete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>684a2013-df3c-4bcd-a6e4-9cb13bc83cb0</testCaseGuid>
+</TestCaseEntity>

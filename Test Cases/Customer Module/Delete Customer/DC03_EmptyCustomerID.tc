@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DC03_EmptyCustomerID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd41e190-642f-4610-8bf7-28ea2dc48f2a</testCaseGuid>
+</TestCaseEntity>

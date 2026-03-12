@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EC04_InvalidPhone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb750ab6-e4c1-4755-af1f-ce42a9a027d4</testCaseGuid>
+</TestCaseEntity>

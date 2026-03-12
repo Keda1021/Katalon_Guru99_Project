@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_New Customer</name>
+   <tag></tag>
+   <elementGuidId>290866e0-d29a-498d-946a-dce9aa22b86f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;addcustomerpage\.php&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = 'addcustomerpage.php']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dbbe8dea-fba4-4722-87b4-465551b36652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>addcustomerpage.php</value>
+      <webElementGuid>a1397977-a164-4be3-bd0e-b116b4e6a5df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Customer</value>
+      <webElementGuid>1b040604-8e14-44a9-b8c7-f64618a9915a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-dfe370e779d2b4e75f4b2e059b0b631b</value>
+      <webElementGuid>b92dfc2e-b6f6-4697-bc8a-cfd8d62928c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = 'addcustomerpage.php']</value>
+      <webElementGuid>e977868f-3d03-42c7-8dd5-431531755467</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = 'addcustomerpage.php']</value>
+      <webElementGuid>e1e9c132-27da-4a87-ad55-67fae40a6ff2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'addcustomerpage.php' and (text() = 'New Customer' or . = 'New Customer')]</value>
+      <webElementGuid>19f0d6c0-dcd0-4eae-8eb0-1d16da87c557</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
