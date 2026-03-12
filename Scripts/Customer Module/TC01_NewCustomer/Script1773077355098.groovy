@@ -71,7 +71,7 @@ File file = new File(filePath)
 file.getParentFile().mkdirs()
 
 // Ghi đè (hoặc dùng .append nếu muốn lưu dồn nhiều ID qua các lần chạy)
-file.write('CustomerID\n' + customerID)
+file.append('CustomerID\n' + customerID)
 
 println('>>> DA LUU ID VAO FILE: ' + filePath)
 
