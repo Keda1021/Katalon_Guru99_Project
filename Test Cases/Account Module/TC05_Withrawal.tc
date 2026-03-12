@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_NewAccount_Success</name>
+   <name>TC05_Withrawal</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f4a10616-2bc7-450f-8592-988a887c62fa</testCaseGuid>
+   <testCaseGuid>669f5855-8476-4ba5-8bb8-b5c50469b1e9</testCaseGuid>
 </TestCaseEntity>
