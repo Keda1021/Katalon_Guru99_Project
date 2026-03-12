@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_NewCustomer</name>
+   <name>Mini Statement</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>832c82f5-a7ab-4f5c-a542-7c940e379cc9</testCaseGuid>
+   <testCaseGuid>2f462e3d-a94b-454d-a887-be1fbec0190f</testCaseGuid>
 </TestCaseEntity>
