@@ -5,9 +5,9 @@
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
+   <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>b5dd6566-fdf4-4b4e-89bf-3f6ef9e79be9</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>C:\Users\ACER\Katalon Studio\Katalon_Guru99_Project\Data Files\AccountID_List.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

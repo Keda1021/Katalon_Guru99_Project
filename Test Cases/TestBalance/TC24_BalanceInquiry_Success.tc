@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC07_BalanceInquiry_Success</name>
+   <name>TC24_BalanceInquiry_Success</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

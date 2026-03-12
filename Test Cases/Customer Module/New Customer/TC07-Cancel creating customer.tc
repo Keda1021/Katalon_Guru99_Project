@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>NC05-Cancel creating customer</name>
+   <name>TC07-Cancel creating customer</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_EditAccount</name>
+   <name>TC04-Create customer with empty required fields</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cb726f49-144c-4766-bc03-6e84a6ecb79a</testCaseGuid>
+   <testCaseGuid>92c91201-bb5c-421c-9191-7f7252d8e3c1</testCaseGuid>
 </TestCaseEntity>

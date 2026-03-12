@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DC01_DeleteCustomer_Valid</name>
+   <name>TC12_ResetEditForm</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>04079bbb-4c8e-49f1-a65c-1148ff29de82</testCaseGuid>
+   <testCaseGuid>379552d4-71dd-4e8c-bb46-6d45a8278bd1</testCaseGuid>
 </TestCaseEntity>

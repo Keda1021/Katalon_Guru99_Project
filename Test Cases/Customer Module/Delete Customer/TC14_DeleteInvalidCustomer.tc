@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>EC01_EditCustomer_Valid</name>
+   <name>TC14_DeleteInvalidCustomer</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>677d4e75-9ae2-4696-a7fa-0e46179c2f98</testCaseGuid>
+   <testCaseGuid>c5b23a3e-2c21-40d3-b9ee-4eb98c5c1e43</testCaseGuid>
 </TestCaseEntity>

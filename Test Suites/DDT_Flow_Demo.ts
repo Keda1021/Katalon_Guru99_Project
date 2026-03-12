@@ -22,7 +22,7 @@
       <guid>e4db6fc7-7a6a-4f21-8dc4-1764b1067c2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Customer Module/TC01_NewCustomer</testCaseId>
+      <testCaseId>Test Cases/Customer Module/New Customer/TC03-Create customer with valid data</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>738db0af-b1cf-4eef-bb61-6f4895467a1a</id>

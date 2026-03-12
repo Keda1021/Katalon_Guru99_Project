@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DC02_DeleteInvalidCustomer</name>
+   <name>TC21_Deposit</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c5b23a3e-2c21-40d3-b9ee-4eb98c5c1e43</testCaseGuid>
+   <testCaseGuid>11feb298-0914-403a-a538-ed34d7c4bc8f</testCaseGuid>
 </TestCaseEntity>

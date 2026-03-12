@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DC03_EmptyCustomerID</name>
+   <name>TC11_InvalidPhone</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>fd41e190-642f-4610-8bf7-28ea2dc48f2a</testCaseGuid>
+   <testCaseGuid>bb750ab6-e4c1-4755-af1f-ce42a9a027d4</testCaseGuid>
 </TestCaseEntity>

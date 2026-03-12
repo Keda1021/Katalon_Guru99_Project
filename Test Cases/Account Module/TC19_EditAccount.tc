@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC09_Change_Password</name>
+   <name>TC19_EditAccount</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>934faf57-0a61-4046-88a8-7f2c0e3826d4</testCaseGuid>
+   <testCaseGuid>cb726f49-144c-4766-bc03-6e84a6ecb79a</testCaseGuid>
 </TestCaseEntity>

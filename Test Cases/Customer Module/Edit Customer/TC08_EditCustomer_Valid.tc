@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_DeleteAccount</name>
+   <name>TC08_EditCustomer_Valid</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2e819c34-4ea5-44dd-8245-3f4bc5edd658</testCaseGuid>
+   <testCaseGuid>677d4e75-9ae2-4696-a7fa-0e46179c2f98</testCaseGuid>
 </TestCaseEntity>

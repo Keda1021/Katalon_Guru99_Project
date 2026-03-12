@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>NC04-PIN less than 6 digits</name>
+   <name>TC10_EmptyAddress</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d223e6aa-d510-4692-998f-313aaa3efc10</testCaseGuid>
+   <testCaseGuid>eab5fcbd-28ca-4141-8623-2986b6b0fde3</testCaseGuid>
 </TestCaseEntity>

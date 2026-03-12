@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DC05_DeleteCustomerTwice</name>
+   <name>TC22_Withrawal</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b3ffbd04-bc42-486e-876a-347de8cfa12e</testCaseGuid>
+   <testCaseGuid>669f5855-8476-4ba5-8bb8-b5c50469b1e9</testCaseGuid>
 </TestCaseEntity>
