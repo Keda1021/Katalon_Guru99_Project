@@ -9,9 +9,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>11.0.0</modifiedVersion>
+   <modifiedVersion>11.0.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\ACER\Katalon Studio\Katalon_Guru99_Project\SWT.prj</projectFileLocation>
+   <projectFileLocation>D:\TestProject\Katalon_Guru99_Project\Katalon_Guru99_Project\SWT.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
