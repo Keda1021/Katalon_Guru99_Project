@@ -9,13 +9,21 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Run Katalon Studio Test
-        uses: katalon-studio/katalon-studio-github-action@v2
+        uses: katalon-studio/katalon-studio-github-action@v3
         with:
           version: 'latest'
-          projectPath: '${{ github.workspace }}'
-          args: '-noSplash -runMode=console -projectPath="${{ github.workspace }}" -retry=0 -testSuitePath="Test Suites/Regression_Suite" -browserType="Chrome (headless)" -apiKey=${{ secrets.KATALON_API_KEY }}'
+          projectPath: ${{ github.workspace }}
+          args: >
+            -noSplash
+            -runMode=console
+            -projectPath="${{ github.workspace }}"
+            -retry=0
+            -testSuitePath="Test Suites/Regression_Suite"
+            -browserType="Chrome (headless)"
+            -apiKey=${{ secrets.KATALON_API_KEY }}
