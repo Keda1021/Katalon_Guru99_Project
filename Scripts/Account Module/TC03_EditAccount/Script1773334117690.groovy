@@ -28,16 +28,6 @@ if (file.exists()) {
         WebUI.setText(findTestObject('Page_Account/input_Account No_accountno'), lastAccountID)
 
         WebUI.click(findTestObject('Page_Account/submit_edit'))
-
-        // Đợi trang Edit Account
-        WebUI.waitForElementVisible(findTestObject('Page_EditAccount/select_accounttype'), 10)
-
-        // Đổi loại account
-        WebUI.selectOptionByLabel(findTestObject('Page_EditAccount/select_accounttype'), 'Current', false)
-
-        WebUI.click(findTestObject('Page_Account/submit_edit'))
-
-        println('>>> Edit Account thành công')
     }
 }
 
