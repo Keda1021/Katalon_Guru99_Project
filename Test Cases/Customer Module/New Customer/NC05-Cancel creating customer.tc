@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NC05-Cancel creating customer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6ae859e-f741-4aec-a510-79f04d4adeb5</testCaseGuid>
+</TestCaseEntity>

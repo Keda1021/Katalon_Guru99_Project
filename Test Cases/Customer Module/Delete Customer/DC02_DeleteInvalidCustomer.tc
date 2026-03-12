@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DC02_DeleteInvalidCustomer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5b23a3e-2c21-40d3-b9ee-4eb98c5c1e43</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NC02-Create customer with empty required fields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92c91201-bb5c-421c-9191-7f7252d8e3c1</testCaseGuid>
+</TestCaseEntity>
