@@ -1,0 +1,21 @@
+name: Katalon Automation CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Katalon Studio Test
+        uses: katalon-studio/katalon-studio-github-action@v2
+        with:
+          version: 'latest'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -runMode=console -projectPath="${{ github.workspace }}" -retry=0 -testSuitePath="Test Suites/Regression_Suite" -browserType="Chrome (headless)" -apiKey=${{ secrets.KATALON_API_KEY }}'
