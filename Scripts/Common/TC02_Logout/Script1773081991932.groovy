@@ -3,7 +3,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.testobject.TestObject
 
-TestObject logout = findTestObject('Page_AddCustomer/link_Logout')
+TestObject logout = findTestObject('Page_Customer/link_Logout')
 
 WebUI.waitForElementVisible(logout, 10)
 

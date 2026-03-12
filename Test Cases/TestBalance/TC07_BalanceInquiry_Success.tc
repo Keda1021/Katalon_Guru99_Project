@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_BalanceInquiry_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>629774d0-b5f9-44fb-a9b1-ed021c1bd8af</testCaseGuid>
+</TestCaseEntity>

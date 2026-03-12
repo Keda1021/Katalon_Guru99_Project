@@ -23,11 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.G_Url)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_Login/Page_Guru99 Bank Home Page/txt_username'), GlobalVariable.G_AdminUser)
+WebUI.setText(findTestObject('Page_Login/txt_username'), GlobalVariable.G_AdminUser)
 
-WebUI.setText(findTestObject('Page_Login/Page_Guru99 Bank Home Page/txt_password'), GlobalVariable.G_AdminPassword)
+WebUI.setText(findTestObject('Page_Login/txt_password'), GlobalVariable.G_AdminPassword)
 
-WebUI.click(findTestObject('Page_Login/Page_Guru99 Bank Home Page/btn_login'))
+WebUI.click(findTestObject('Page_Login/btn_login'))
 
 WebUI.waitForPageLoad(10)
 
