@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EC02_InvalidCustomerID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0633d40-e3b3-43a6-99c7-3427261ac5e6</testCaseGuid>
+</TestCaseEntity>

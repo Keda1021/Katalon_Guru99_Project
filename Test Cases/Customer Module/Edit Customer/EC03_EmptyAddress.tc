@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EC03_EmptyAddress</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eab5fcbd-28ca-4141-8623-2986b6b0fde3</testCaseGuid>
+</TestCaseEntity>

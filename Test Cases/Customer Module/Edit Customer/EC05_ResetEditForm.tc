@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EC05_ResetEditForm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>379552d4-71dd-4e8c-bb46-6d45a8278bd1</testCaseGuid>
+</TestCaseEntity>
