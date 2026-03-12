@@ -20,7 +20,7 @@ jobs:
       - name: Run Katalon Studio Test
         uses: katalon-studio/katalon-studio-github-action@v2
         with:
-          version: 'latest'
+          version: '10.3.1'
           projectPath: ${{ github.workspace }}
           args: >
             -noSplash
