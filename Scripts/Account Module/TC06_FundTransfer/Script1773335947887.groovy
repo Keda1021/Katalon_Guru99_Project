@@ -9,10 +9,11 @@ WebUI.setText(findTestObject('Page_Login/txt_UserID'), 'mngr655719')
 WebUI.setText(findTestObject('Page_Login/txt_Password'), 'UjymEsA')
 WebUI.click(findTestObject('Page_Login/btn_login'))
 //Go to Fund Transfer
+WebUI.click(findTestObject('Withdrawal/link_Withdrawal'))
 WebUI.click(findTestObject('FundTransfer/link_FundTransfer'))
 
 //Input transfer info
-WebUI.setText(findTestObject('FundTransfer/txt_PayersAccountNo'), '180566')
+WebUI.setText(findTestObject('FundTransfer/txt_PayersAccountNo'), '180572')
 WebUI.setText(findTestObject('FundTransfer/txt_PayeesAccountNo'), '180566')
 WebUI.setText(findTestObject('FundTransfer/txt_Amount'), '200')
 WebUI.setText(findTestObject('FundTransfer/txt_Description'), 'Transfer Test')

@@ -4,7 +4,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 // 1. Mở trình duyệt và Đăng nhập
 WebUI.openBrowser('https://demo.guru99.com/V4/')
 WebUI.setText(findTestObject('Login/txt_Username'), 'mngr656064')
-WebUI.setText(findTestObject('Login/txt_Password'), 'MatKhauMoi1234!')
+WebUI.setText(findTestObject('Login/txt_Password'), 'MatKhauMoi12345!')
 WebUI.click(findTestObject('Login/btn_Login'))
 
 // 2. Đi tới trang Mini Statement

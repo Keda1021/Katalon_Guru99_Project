@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_username</name>
+   <name>txt_Description</name>
    <tag></tag>
-   <elementGuidId>e60778aa-c42c-4476-8109-fb4e4315a03a</elementGuidId>
+   <elementGuidId>1f55eab3-6934-46c0-9c07-00ebe8967a98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'uid']</value>
+         <value>//*[@name = 'desc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>uid</value>
-      <webElementGuid>d773dbfb-7a5a-44c5-bdbb-6b3f8e9ed7d4</webElementGuid>
+      <value>desc</value>
+      <webElementGuid>db6067b8-10bc-40ee-8ec3-9a2cb7e8c835</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
