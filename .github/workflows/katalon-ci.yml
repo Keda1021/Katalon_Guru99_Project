@@ -2,9 +2,9 @@ name: Katalon Automation CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -24,9 +24,11 @@ jobs:
           projectPath: ${{ github.workspace }}
           args: >
             -noSplash
+            -consoleLog
             -runMode=console
             -projectPath="${{ github.workspace }}"
             -retry=0
             -testSuitePath="Test Suites/Regression_Suite"
             -browserType="Chrome (headless)"
+            -webui.autoUpdateDrivers=true
             -apiKey=${{ secrets.KATALON_API_KEY }}
