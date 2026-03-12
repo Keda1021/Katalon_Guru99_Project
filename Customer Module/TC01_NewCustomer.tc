@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_NewCustomer</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>832c82f5-a7ab-4f5c-a542-7c940e379cc9</testCaseGuid>
-</TestCaseEntity>
